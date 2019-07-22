@@ -25,6 +25,7 @@ public class LoginViewModel extends ViewModel {
 
     public void onClick(View view)
     {
+        // have to add pb
         LoginUser loginUser = new LoginUser(EmailAddress.getValue(),Password.getValue());
         userMutableLiveData.setValue(loginUser);
     }
